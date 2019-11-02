@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Digital signatures are based on public key cryptography, also known as asymmetric cryptography. Using a public
+key algorithm, such as RSA, one can generate two keys that are mathematically linked: one private and one public.
+Digital signatures work because public key cryptography depends on two mutually authenticating cryptographic
+keys. The individual who is creating the digital signature uses their own private key to encrypt signature-related
+data; the only way to decrypt that data is with the signer's public key. This is how digital signatures are authenticated.
+
+Digital signature technology requires all the parties to trust that the individual creating the signature has been
+able to keep their own private key secret. If someone else has access to the signer's private key, that party could
+create fraudulent digital signatures in the name of the private key holder.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="circularButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAAV5JREFUSEutlcFqwkAURUMQybL0C0tx4cofKaVIcVGkXyBdiXRR+lkuREw8d3iv
+        TCJTkhkPXN5DvXcmb0xS5dJ13Qy9oydkn94JAhsLF8e2bZdU+7YQgrTzDbog54QWLGS/yoSQGSFb1LmE
+        9WfaFart59PA2BDiY0nxheZmGQ/B4UCpF+1WqA76b9oHs4wHk8bygUL4ULaAwhuzjAejxrLGHB9oD77f
+        U7J3/ob+xiIGfdFYNh7uoYM+byyY5ugVJccCB/RolvFgqtELu/tvLL+U6eECY01AbwHVuIcflLeAwBxG
+        pEWUlkAjmn64DuZwyNSbRfxqIO+QHYJu/qaqcQ95f1MHsx7Lay2itAR5N5qDWVeyDVHgVyCivmxcmHs3
+        nlCNeyg+eI1LB5+EhXaU6Y9rB7Me258KE34Fgr7sheMQ4OOKR6RwvTLLwh3C4nEd0f1e+g6B4eXPrp/T
+        4VV1BSFUWW4GsgSrAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="circularButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAAVNJREFUSEutlc9qwkAQxpcg4lH6hEVKj75I8SAiPYgP0IOnIj30uXooYuLvW2ZD
+        DBv/zOaDjxki85udjdkNQ2qaJtR1/Yo3eGKPx5HB34l/uCHfEmb2c5kExwug/4JL5GeCmpRNAqDCS3wC
+        Sojwrvc88jeheIoPAg+JJhuCf7sonuMfwXKiwdmaFE0yAxKbEKP7OdphfxNAmuQ7ovLSJGti8XYdO6vu
+        TqBc/641cdzt6hqpyScu3q6jaAPSdq2IUyt5XhS/APm1VUf1ck2yIvomofiqgWIvV4MPXFnJ46L45hYZ
+        3LdFFLUvWdJqkyz3v2SK5oInqGIvF1zfwvNwiu99aJLvXFIRDbLnUZoA7ch9K8ft16uYybdEF3xC8ZcI
+        OSU49p0/FFZAlvgkUka6cPxfqwRcjd5wvDK1arNWXgZPAiS3lz4a79JPAqhpFgb3nS8hhAuilVl7syWM
+        cwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>To create a digital signature, signing software -- such as an email program -- creates a one-way hash of the
+electronic data to be signed. The private key is then used to encrypt the hash. The encrypted hash -- along with
+other information, such as the hashing algorithm -- is the digital signature.
+The reason for encrypting the hash instead of the entire message or document is that a hash function can
+convert an arbitrary input into a fixed length value, which is usually much shorter. This saves time as hashing is
+much faster than signing.
+The value of a hash is unique to the hashed data. Any change in the data, even a change in a single character,
+will result in a different value. This attribute enables others to validate the integrity of the data by using the
+signer's public key to decrypt the hash. If the decrypted hash matches a second computed hash of the same
+data, it proves that the data hasn't changed since it was signed</value>
+  </data>
+</root>
