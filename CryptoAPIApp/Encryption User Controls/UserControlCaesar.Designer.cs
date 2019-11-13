@@ -35,6 +35,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.btnCipher = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.textboxencrypted = new System.Windows.Forms.TextBox();
@@ -44,6 +45,7 @@
             this.textboxkey = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.btnDecipher = new System.Windows.Forms.Button();
             this.btnClear2 = new System.Windows.Forms.Button();
             this.textboxdecrypted = new System.Windows.Forms.TextBox();
@@ -53,8 +55,6 @@
             this.textboxkey2 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.backButton = new System.Windows.Forms.Button();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -64,7 +64,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(42, 72);
+            this.label2.Location = new System.Drawing.Point(219, 25);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(130, 26);
             this.label2.TabIndex = 33;
@@ -79,7 +79,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(108)))), ((int)(((byte)(108)))));
-            this.label3.Location = new System.Drawing.Point(82, 134);
+            this.label3.Location = new System.Drawing.Point(72, 96);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(470, 420);
             this.label3.TabIndex = 32;
@@ -113,6 +113,15 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Encrypt";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Crimson;
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(3, 3);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(401, 3);
+            this.panel5.TabIndex = 32;
             // 
             // btnCipher
             // 
@@ -221,6 +230,15 @@
             this.tabPage2.Text = "Decrypt";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Crimson;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(401, 3);
+            this.panel1.TabIndex = 32;
+            // 
             // btnDecipher
             // 
             this.btnDecipher.BackColor = System.Drawing.Color.IndianRed;
@@ -321,24 +339,6 @@
             this.backButton.TabIndex = 37;
             this.backButton.UseVisualStyleBackColor = true;
             this.backButton.Click += new System.EventHandler(this.BackButton_Click);
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.Crimson;
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(3, 3);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(401, 3);
-            this.panel5.TabIndex = 32;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Crimson;
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(3, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(401, 3);
-            this.panel1.TabIndex = 32;
             // 
             // UserControlCaesar
             // 

@@ -50,8 +50,43 @@ namespace CryptoAPIApp
             }
         }
 
-      
-        
+        public Button Button3
+        {
+            get
+            {
+                return button3;
+            }
+
+            set
+            {
+                button3 = value;
+            }
+        }
+
+        public Button Button8
+        {
+            get
+            {
+                return button8;
+            }
+
+            set
+            {
+                button8 = value;
+            }
+        }
+        public Panel Sidepanel1
+        {
+            get
+            {
+                return Sidepanel;
+            }
+
+            set
+            {
+                Sidepanel = value;
+            }
+        }
 
 
 
@@ -60,34 +95,23 @@ namespace CryptoAPIApp
             Application.Run(new FrmSplashScreen());
         }
 
-
-
         private void FrmMain_Load(object sender, EventArgs e)
         {
-            
             _obj = this;
 
             UserControlHome uch = new UserControlHome();
             uch.Dock = DockStyle.Fill;
+            
             panelContainer.Controls.Add(uch);
         }
 
-        
-        
-        
 
         private void Button1_Click_1(object sender, EventArgs e)
         {
             Sidepanel.Height = button1.Height;
             Sidepanel.Top = button1.Top;
-            userControlHome1.BringToFront();
-            
+            userControlHome1.BringToFront();         
         }
-
-    
-        
-
-       
 
         private void ExitButton_Click(object sender, EventArgs e)
         {
@@ -108,10 +132,6 @@ namespace CryptoAPIApp
             userControlGeneral1.BringToFront();
         }
 
-        private void UserControlAlgorithms1_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void Button8_Click(object sender, EventArgs e)
         {
@@ -120,15 +140,6 @@ namespace CryptoAPIApp
             userControlAlgorithms1.BringToFront();
         }
 
-        private void UserControlAlgorithms1_Load_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Button4_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void Button5_Click(object sender, EventArgs e)
         {
@@ -139,6 +150,8 @@ namespace CryptoAPIApp
         {
             System.Diagnostics.Process.Start("https://github.com/fid9");
         }
+
+      
     }
 }
 

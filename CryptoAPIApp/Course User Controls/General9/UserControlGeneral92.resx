@@ -143,27 +143,24 @@
 </value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>In 2017, the National Institute of Standards and Technology (NIST) in the U.S. launched an international multi-year
-Post-Quantum Cryptography (PQC) competition to select cryptographic systems for the future.  A post-quantum
-cryptosystem is one which is not known to be breakable in polynomial time (described above) by a full-scale
-quantum computer. There are currently five main proposals for post-quantum systems using hard math problems,
-each of which has been studied for a decade or more:
+    <value>In 2017, the National Institute of Standards and Technology (NIST) in the U.S. launched an international multi-year Post-Quantum
+Cryptography (PQC) competition to select cryptographic systems for the future.  A post-quantum cryptosystem is one which is
+not known to be breakable in polynomial time (described above) by a full-scale quantum computer. There are currently five main
+proposals for post-quantum systems using hard math problems, each of which has been studied for a decade or more:
 Code-based systems based on the difficulty of decoding random linear codes
 
-An example of a linear expression in one variable is: 10 + 3x. Linear codes consist of code words, but instead of
-using simple components in a codeword such as ‘a’ or ‘b’, each component is far more complex: a multivariable
-linear expression – a complex mathematical phrase – of the input. Given a vector where some of the entries are
-wrong (there is an ‘error’), the decoding challenge is to find the closest codeword.
-Multi-variate cryptosystems based on the difficulty of solving systems of many non-linear equations in many
-variables
+An example of a linear expression in one variable is: 10 + 3x. Linear codes consist of code words, but instead of using simple
+components in a codeword such as ‘a’ or ‘b’, each component is far more complex: a multivariable linear expression – a complex
+mathematical phrase – of the input. Given a vector where some of the entries are wrong (there is an ‘error’), the decoding challenge
+is to find the closest codeword. Multi-variate cryptosystems based on the difficulty of solving systems of many non-linear
+equations in many variables
 
-An example of a non-linear equation in several variables is: y = 2x3z+ 3x2 w + z2w2 Current proposals are based
-on scores of equations in scores of variables.
-Lattice-based systems based on the hardness of finding short vectors in lattices
-Regularly-spaced grids of points stretching out to infinity. Think of a polka dot shirt for a basic example in two
-dimensions, but typical systems might use lattices in thousands of dimensions. Lattices are typically described
-in terms of a set of vectors (objects with both a magnitude and direction) which generate the whole lattice
-(basis vectors). However, it can be exponentially hard to find a short combination of those basis vectors.
+An example of a non-linear equation in several variables is: y = 2x3z+ 3x2 w + z2w2 Current proposals are based on scores of
+equations in scores of variables. Lattice-based systems based on the hardness of finding short vectors in lattices Regularly-spaced
+grids of points stretching out to infinity. Think of a polka dot shirt for a basic example in two dimensions, but typical systems
+might use lattices in thousands of dimensions. Lattices are typically described in terms of a set of vectors (objects with both
+a magnitude and direction) which generate the whole lattice (basis vectors). However, it can be exponentially hard to find a
+short combination of those basis vectors.
 </value>
   </data>
 </root>

@@ -32,6 +32,7 @@
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.textBoxkey2 = new System.Windows.Forms.TextBox();
             this.textboxkey = new System.Windows.Forms.TextBox();
@@ -46,7 +47,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.backButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
@@ -76,6 +76,15 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(415, 520);
             this.panel1.TabIndex = 31;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Crimson;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(415, 5);
+            this.panel2.TabIndex = 32;
             // 
             // label9
             // 
@@ -207,7 +216,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(48, 84);
+            this.label2.Location = new System.Drawing.Point(146, 25);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(347, 26);
             this.label2.TabIndex = 28;
@@ -218,20 +227,11 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(108)))), ((int)(((byte)(108)))));
-            this.label3.Location = new System.Drawing.Point(80, 149);
+            this.label3.Location = new System.Drawing.Point(72, 96);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(465, 378);
             this.label3.TabIndex = 27;
             this.label3.Text = resources.GetString("label3.Text");
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Crimson;
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(415, 5);
-            this.panel2.TabIndex = 32;
             // 
             // label10
             // 

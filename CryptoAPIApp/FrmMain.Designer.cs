@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.button8 = new System.Windows.Forms.Button();
             this.Sidepanel = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
@@ -42,6 +43,7 @@
             this.button7 = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
             this.panelContainer = new System.Windows.Forms.Panel();
+            this.userControlHome3 = new CryptoAPIApp.UserControlHome();
             this.userControlHome2 = new CryptoAPIApp.UserControlHome();
             this.userControlAlgorithms1 = new CryptoAPIApp.UserControlAlgorithms();
             this.userControlGeneral1 = new CryptoAPIApp.UserControlGeneral();
@@ -55,38 +57,49 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.button8);
             this.panel1.Controls.Add(this.Sidepanel);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(76, 711);
             this.panel1.TabIndex = 0;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(76, 10);
+            this.panel3.TabIndex = 5;
             // 
             // button8
             // 
             this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button8.FlatAppearance.BorderSize = 0;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Font = new System.Drawing.Font("Arial", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.Color.White;
             this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
-            this.button8.Location = new System.Drawing.Point(3, 222);
+            this.button8.Location = new System.Drawing.Point(5, 170);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(67, 74);
+            this.button8.Size = new System.Drawing.Size(73, 74);
             this.button8.TabIndex = 4;
-            this.button8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button8.Text = "\r\n\r\n\r\n\r\n\r\n Algorithms";
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.Button8_Click);
             // 
             // Sidepanel
             // 
             this.Sidepanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
-            this.Sidepanel.Location = new System.Drawing.Point(0, 62);
+            this.Sidepanel.Location = new System.Drawing.Point(0, 16);
             this.Sidepanel.Name = "Sidepanel";
-            this.Sidepanel.Size = new System.Drawing.Size(4, 74);
+            this.Sidepanel.Size = new System.Drawing.Size(4, 70);
             this.Sidepanel.TabIndex = 3;
             // 
             // button3
@@ -94,14 +107,14 @@
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Arial", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(3, 142);
+            this.button3.Location = new System.Drawing.Point(5, 90);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(67, 74);
+            this.button3.Size = new System.Drawing.Size(73, 74);
             this.button3.TabIndex = 2;
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button3.Text = "\r\n\r\n\r\n\r\n\r\n Course";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.Button3_Click);
             // 
@@ -110,14 +123,14 @@
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Arial", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(3, 62);
+            this.button1.Location = new System.Drawing.Point(5, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(71, 74);
+            this.button1.Size = new System.Drawing.Size(73, 72);
             this.button1.TabIndex = 0;
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.Text = "\r\n\r\n\r\n\r\n Home";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click_1);
             // 
@@ -209,6 +222,7 @@
             // 
             // panelContainer
             // 
+            this.panelContainer.Controls.Add(this.userControlHome3);
             this.panelContainer.Controls.Add(this.userControlHome2);
             this.panelContainer.Controls.Add(this.userControlAlgorithms1);
             this.panelContainer.Controls.Add(this.userControlGeneral1);
@@ -218,6 +232,14 @@
             this.panelContainer.Name = "panelContainer";
             this.panelContainer.Size = new System.Drawing.Size(1045, 606);
             this.panelContainer.TabIndex = 16;
+            // 
+            // userControlHome3
+            // 
+            this.userControlHome3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.userControlHome3.Location = new System.Drawing.Point(0, 0);
+            this.userControlHome3.Name = "userControlHome3";
+            this.userControlHome3.Size = new System.Drawing.Size(1045, 595);
+            this.userControlHome3.TabIndex = 4;
             // 
             // userControlHome2
             // 
@@ -295,6 +317,8 @@
         private UserControlGeneral userControlGeneral1;
         private UserControlAlgorithms userControlAlgorithms1;
         private UserControlHome userControlHome2;
+        private System.Windows.Forms.Panel panel3;
+        private UserControlHome userControlHome3;
     }
 }
 

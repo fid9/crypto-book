@@ -14,15 +14,18 @@ namespace CryptoAPIApp
     public partial class UserControlDSAS : UserControl
     {
         public UserControlDSAS()
-        {
+        {   
             InitializeComponent();
+            DSAC = new DSACryptoServiceProvider();
+            string privateKey = DSAC.ToXmlString(true);
+            string publicKey = DSAC.ToXmlString(false);
         }
 
+        AsymmetricAlgorithm DSAC;
         private void BtnSign_Click(object sender, EventArgs e)
         {
             if (textboxplaintext.Text == "") return;
-            DSACryptoServiceProvider DSA = new DSACryptoServiceProvider();
-            DSASignatureFormatter DSAFormatter = new DSASignatureFormatter(DSA);
+            DSASignatureFormatter DSAFormatter = new DSASignatureFormatter(DSAC);
             DSAFormatter.SetHashAlgorithm("SHA1");
             SHA1Managed SHhash = new SHA1Managed();
             byte[] SignedHashValue = DSAFormatter.CreateSignature(SHhash.ComputeHash(new UnicodeEncoding().GetBytes(textboxplaintext.Text)));
@@ -32,12 +35,11 @@ namespace CryptoAPIApp
 
         private void BtnVerify_Click(object sender, EventArgs e)
         {
-                DSACryptoServiceProvider DSA = new DSACryptoServiceProvider();
-                DSASignatureDeformatter DSADeformatter = new DSASignatureDeformatter(DSA);
+                DSASignatureDeformatter DSADeformatter = new DSASignatureDeformatter(DSAC);
                 DSADeformatter.SetHashAlgorithm("SHA1");
                 SHA1Managed SHhash = new SHA1Managed();
-                if (DSADeformatter.VerifySignature(SHhash.ComputeHash(new UnicodeEncoding().GetBytes(textboxsigned.Text)),
-                Convert.FromBase64String(textboxsigned.Text))           //the error displays here
+                if (DSADeformatter.VerifySignature(SHhash.ComputeHash(new UnicodeEncoding().GetBytes(textboxplaintext.Text)),
+                Convert.FromBase64String(textboxsigned.Text))           
 )
                 {
 

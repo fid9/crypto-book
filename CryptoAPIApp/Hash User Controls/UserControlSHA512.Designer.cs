@@ -40,8 +40,8 @@
             this.btnHash = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.backButton = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +50,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(108)))), ((int)(((byte)(108)))));
-            this.label3.Location = new System.Drawing.Point(62, 157);
+            this.label3.Location = new System.Drawing.Point(72, 96);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(470, 147);
             this.label3.TabIndex = 41;
@@ -161,22 +161,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(35, 87);
+            this.label2.Location = new System.Drawing.Point(219, 25);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(87, 26);
             this.label2.TabIndex = 42;
             this.label2.Text = "SHA-512";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(108)))), ((int)(((byte)(108)))));
-            this.label1.Location = new System.Drawing.Point(604, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(206, 24);
-            this.label1.TabIndex = 44;
-            this.label1.Text = "Select the algorithm:";
             // 
             // backButton
             // 
@@ -191,12 +180,23 @@
             this.backButton.UseVisualStyleBackColor = true;
             this.backButton.Click += new System.EventHandler(this.BackButton_Click);
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(108)))), ((int)(((byte)(108)))));
+            this.label9.Location = new System.Drawing.Point(604, 30);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(208, 19);
+            this.label9.TabIndex = 46;
+            this.label9.Text = "Test the algorithm below:";
+            // 
             // UserControlSHA512
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.backButton);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label2);
@@ -222,7 +222,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button backButton;
+        private System.Windows.Forms.Label label9;
     }
 }

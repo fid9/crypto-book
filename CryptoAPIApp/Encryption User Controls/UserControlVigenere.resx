@@ -130,7 +130,7 @@ At different points in the encryption process, the cipher uses a
 different alphabet from one of the rows.
 The alphabet used at each point depends on a repeating keyword.
 
-Example:</value>
+              Example:</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="backButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

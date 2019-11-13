@@ -118,28 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label2.Text" xml:space="preserve">
-    <value>Prior to any secured communication, users must set up the details of the cryptography. In some instances this may
-require exchanging identical keys (in the case of a symmetric key system). In others it may require possessing the
-other party's public key. While public keys can be openly exchanged (their corresponding private key is kept secret),
-symmetric keys must be exchanged over a secure communication channel. Formerly, exchange of such a key was
-extremely troublesome, and was greatly eased by access to secure channels such as a diplomatic bag. Clear text
-exchange of symmetric keys would enable any interceptor to immediately learn the key, and any encrypted data. 
-The advance of public key cryptography in the 1970s has made the exchange of keys less troublesome.
-Since the Diffie-Hellman key exchange protocol was published in 1975, it has become possible to exchange a key
-over an insecure communications channel, which has substantially reduced the risk of key disclosure during
-distribution. It is possible, using something akin to a book code, to include key indicators as clear text attached to
-an encrypted message. The encryption technique used by Richard Sorge's code clerk was of this type, referring
-to a page in a statistical manual, though it was in fact a code. The German Army Enigma symmetric encryption
-key was a mixed type early in its use; the key was a combination of secretly distributed key schedules and a user
-chosen session key component for each message. 
-In more modern systems, such as OpenPGP compatible systems, a session key for a symmetric key algorithm
-is distributed encrypted by an asymmetric key algorithm. This approach avoids even the necessity for using
-a key exchange protocol like Diffie-Hellman key exchange. 
-Another method of key exchange involves encapsulating one key within another. Typically a master key is
-generated and exchanged using some secure method. This method is usually cumbersome or expensive and
-not suitable for use on a larger scale. Once the master key has been securely exchanged, it can then be used
-to securely exchange subsequent keys with ease. This technique is usually termed key wrap. A common
-technique uses block ciphers and cryptographic hash functions.</value>
+    <value>Prior to any secured communication, users must set up the details of the cryptography. In some instances this may require
+exchanging identical keys (in the case of a symmetric key system). In others it may require possessing the other party's public
+key. While public keys can be openly exchanged (their corresponding private key is kept secret), symmetric keys must be
+exchanged over a secure communication channel. Formerly, exchange of such a key was extremely troublesome, and was
+greatly eased by access to secure channels such as a diplomatic bag. Clear text exchange of symmetric keys would enable any
+interceptor to immediately learn the key, and any encrypted data.  The advance of public key cryptography in the 1970s has
+made the exchange of keys less troublesome. Since the Diffie-Hellman key exchange protocol was published in 1975, it has
+become possible to exchange a key over an insecure communications channel, which has substantially reduced the risk of key
+disclosure during distribution. It is possible, using something akin to a book code, to include key indicators as clear text
+attached to an encrypted message. The encryption technique used by Richard Sorge's code clerk was of this type, referring to
+a page in a statistical manual, though it was in fact a code. The German Army Enigma symmetric encryption key was a mixed
+type early in its use; the key was a combination of secretly distributed key schedules and a user chosen session key component
+for each message.  In more modern systems, such as OpenPGP compatible systems, a session key for a symmetric key
+algorithm is distributed encrypted by an asymmetric key algorithm. This approach avoids even the necessity for using a key
+exchange protocol like Diffie-Hellman key exchange.  Another method of key exchange involves encapsulating one key within
+another. Typically a master key is generated and exchanged using some secure method. This method is usually cumbersome
+or expensive and not suitable for use on a larger scale. Once the master key has been securely exchanged, it can then be used
+to securely exchange subsequent keys with ease. This technique is usually termed key wrap. A common technique uses block
+ciphers and cryptographic hash functions.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="circularButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

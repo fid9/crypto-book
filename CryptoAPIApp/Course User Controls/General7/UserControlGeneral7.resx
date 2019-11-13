@@ -118,32 +118,56 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label3.Text" xml:space="preserve">
-    <value>Key management concerns keys at the user level, either
-between users or systems. This is in contrast to key
-scheduling, which typically refers to the internal handling
-of keys within the operation of a cipher. 
-Successful key management is critical to the security
-of a cryptosystem. It is the more challenging side of 
-cryptography in a sense that it involves aspects of social
-engineering such as system policy, user training,
-organizational and departmental interactions, and
-coordination between all of these elements, in contrast
-to pure mathematical practices that can be automated. </value>
+    <value>Key management concerns keys at the user level, either between
+users or systems. This is in contrast to key scheduling, which
+typically refers to the internal handling of keys within the operation
+of a cipher.  Successful key management is critical to the security
+of a cryptosystem. It is the more challenging side of  cryptography
+in a sense that it involves aspects of social engineering such as
+system policy, user training, organizational and departmental
+interactions, and coordination between all of these elements, in
+contrast to pure mathematical practices that can be automated. </value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Key management refers to management of cryptographic keys in a cryptosystem. This includes dealing with the
-generation, exchange, storage, use, crypto-shredding (destruction) and replacement of keys. It includes
-cryptographic protocol design, key servers, user procedures, and other relevant protocols.
+    <value>Key management refers to management of cryptographic keys in a cryptosystem. This includes dealing with the generation,
+exchange, storage, use, crypto-shredding (destruction) and replacement of keys. It includes cryptographic protocol design,
+key servers, user procedures, and other relevant protocols.
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJ
+        TUUH4wgSDiUhOGD66gAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAElSURBVEhL
+        vdW5SkQxGIbhg0sl4lKIeiXCtFpaiLvegDeoteO+oYKCd6Li/r7FDyFwmuQcP3iKmeL7mSSTNBUZwzLO
+        cIIBOovlq7jHFz7hkHlUx/I13MLiX3zjBouoyjjWcYUPWP6DZzh0FMWxfAsXeEeUP2ITEyiO5Ts4xxti
+        We6wjUkUx/JdeFrSctfcoVMojuV7OMUrovwSfj+N4rSVuwf7mEFxYlnycvfA8lkUZwRunGuelvu5utws
+        4BCxoXrBAarLjQOO0NsAl8jj19sSmThB/zKk7SRVHdNI2y/p5I8WSYekV8U1qq+KiEN6u+wiDsmva4c8
+        YANV13XEIfmD45AnVD84kXgyXZ70yXRoJ2+yyR99f80Qc+gsDlmBp+sYS8jSNH9bzXREfEMC+wAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJ
+        TUUH4wgSDiUhOGD66gAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAElSURBVEhL
+        vdW5SkQxGIbhg0sl4lKIeiXCtFpaiLvegDeoteO+oYKCd6Li/r7FDyFwmuQcP3iKmeL7mSSTNBUZwzLO
+        cIIBOovlq7jHFz7hkHlUx/I13MLiX3zjBouoyjjWcYUPWP6DZzh0FMWxfAsXeEeUP2ITEyiO5Ts4xxti
+        We6wjUkUx/JdeFrSctfcoVMojuV7OMUrovwSfj+N4rSVuwf7mEFxYlnycvfA8lkUZwRunGuelvu5utws
+        4BCxoXrBAarLjQOO0NsAl8jj19sSmThB/zKk7SRVHdNI2y/p5I8WSYekV8U1qq+KiEN6u+wiDsmva4c8
+        YANV13XEIfmD45AnVD84kXgyXZ70yXRoJ2+yyR99f80Qc+gsDlmBp+sYS8jSNH9bzXREfEMC+wAAAABJ
+        RU5ErkJggg==
 </value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>These may include symmetric keys or asymmetric keys. In a symmetric key algorithm the keys involved are identical
-for both encrypting and decrypting a message. Keys must be chosen carefully, and distributed and stored securely.
-Asymmetric keys, also known as public keys, in contrast are two distinct keys that are mathematically linked. Public
-key infrastructure (PKI), the implementation of public key cryptography, requires an organization to establish an
-infrastructure to create and manage public and private key pairs along with digital certificates.</value>
+    <value>These may include symmetric keys or asymmetric keys. In a symmetric key algorithm the keys involved are identical for both
+encrypting and decrypting a message. Keys must be chosen carefully, and distributed and stored securely. Asymmetric keys,
+also known as public keys, in contrast are two distinct keys that are mathematically linked. Public key infrastructure (PKI), the
+implementation of public key cryptography, requires an organization to establish an infrastructure to create and manage public
+and private key pairs along with digital certificates.</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsN

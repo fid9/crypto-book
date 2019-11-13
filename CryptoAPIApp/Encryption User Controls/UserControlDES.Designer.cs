@@ -52,7 +52,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Corbel", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(42, 72);
+            this.label2.Location = new System.Drawing.Point(148, 28);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(302, 26);
             this.label2.TabIndex = 23;
@@ -63,7 +63,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(108)))), ((int)(((byte)(108)))));
-            this.label3.Location = new System.Drawing.Point(65, 127);
+            this.label3.Location = new System.Drawing.Point(89, 99);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(460, 147);
             this.label3.TabIndex = 22;
@@ -218,9 +218,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(84, 296);
+            this.pictureBox1.Location = new System.Drawing.Point(118, 262);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(396, 296);
+            this.pictureBox1.Size = new System.Drawing.Size(396, 330);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 30;
             this.pictureBox1.TabStop = false;

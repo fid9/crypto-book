@@ -119,7 +119,6 @@
   </resheader>
   <data name="label2.Text" xml:space="preserve">
     <value>The benefits of asymmetric cryptography include:
-
   • the key distribution problem is eliminated because there's no need for exchanging keys.
 
   • security is increased as the private keys don't ever have to be transmitted or revealed to anyone.
@@ -130,7 +129,6 @@
   • it allows for non-repudiation so the sender can't deny sending a message.
 
 Disadvantages include:
-
   • it's a slow process compared to symmetric crytography, so it's not appropriate for decrypting bulk messages.
 
   • if an individual loses his private key, he can't decrypt the messages he receives.
@@ -141,6 +139,18 @@ Disadvantages include:
   • if a hacker identifies a person's private key, the attacker can read all of that individual's messages.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="circularButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAAVNJREFUSEutlc9qwkAQxpcg4lH6hEVKj75I8SAiPYgP0IOnIj30uXooYuLvW2ZD
+        DBv/zOaDjxki85udjdkNQ2qaJtR1/Yo3eGKPx5HB34l/uCHfEmb2c5kExwug/4JL5GeCmpRNAqDCS3wC
+        Sojwrvc88jeheIoPAg+JJhuCf7sonuMfwXKiwdmaFE0yAxKbEKP7OdphfxNAmuQ7ovLSJGti8XYdO6vu
+        TqBc/641cdzt6hqpyScu3q6jaAPSdq2IUyt5XhS/APm1VUf1ck2yIvomofiqgWIvV4MPXFnJ46L45hYZ
+        3LdFFLUvWdJqkyz3v2SK5oInqGIvF1zfwvNwiu99aJLvXFIRDbLnUZoA7ch9K8ft16uYybdEF3xC8ZcI
+        OSU49p0/FFZAlvgkUka6cPxfqwRcjd5wvDK1arNWXgZPAiS3lz4a79JPAqhpFgb3nS8hhAuilVl7syWM
+        cwAAAABJRU5ErkJggg==
+</value>
+  </data>
   <data name="circularButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO

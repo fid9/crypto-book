@@ -122,24 +122,38 @@
 "signature" that only the server's public key can decrypt.
 The client, using the server's public key, can then
 validate the sender as well as the integrity of message
-contents. Whether it's an email, an online order or a
+contents.
+Whether it's an email, an online order or a
 watermarked photograph on eBay, if the transmission
 arrives but the digital signature does not match the public
 key in the digital certificate, then the client knows that
 the message has been altered.</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Digital Signature is a process that guarantees that the contents of a message have not been altered in transit.
-When you, the server, digitally sign a document, you add a one-way hash (encryption) of the message content
-using your public and private key pair.</value>
+    <value>Digital Signature is a process that guarantees that the contents of a message have not been altered in transit. When you, the
+server, digitally sign a document, you add a one-way hash (encryption) of the message content using your public and
+private key pair.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJ
+        TUUH4wgSDiUhOGD66gAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAElSURBVEhL
+        vdW5SkQxGIbhg0sl4lKIeiXCtFpaiLvegDeoteO+oYKCd6Li/r7FDyFwmuQcP3iKmeL7mSSTNBUZwzLO
+        cIIBOovlq7jHFz7hkHlUx/I13MLiX3zjBouoyjjWcYUPWP6DZzh0FMWxfAsXeEeUP2ITEyiO5Ts4xxti
+        We6wjUkUx/JdeFrSctfcoVMojuV7OMUrovwSfj+N4rSVuwf7mEFxYlnycvfA8lkUZwRunGuelvu5utws
+        4BCxoXrBAarLjQOO0NsAl8jj19sSmThB/zKk7SRVHdNI2y/p5I8WSYekV8U1qq+KiEN6u+wiDsmva4c8
+        YANV13XEIfmD45AnVD84kXgyXZ70yXRoJ2+yyR99f80Qc+gsDlmBp+sYS8jSNH9bzXREfEMC+wAAAABJ
+        RU5ErkJggg==
+</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
     <value>Sometimes you need proof that the document came from you and no one has tampered with it since you sent it.
-Digital Signature with your SSL Certificate fills the bill. On the other hand, sometimes you need to prove that a
-document came from someone else and has not been altered along the way. In legal matters, for example, you
-may need to prove that a contract has not been altered since someone sent it as an email.</value>
+Digital Signature with your SSL Certificate fills the bill. On the other hand, sometimes you need to prove that a document
+came from someone else and has not been altered along the way. In legal matters, for example, you may need to prove that
+a contract has not been altered since someone sent it as an email.</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAZMAAADGCAIAAACYSvrGAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAACH

@@ -118,27 +118,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label2.Text" xml:space="preserve">
-    <value>Many researchers, industrial labs, and governments are actively working on developing a quantum computer
-which can handle large-scale computation, such as the work at Station Q. While classical computers – phones,
-tablets, laptops, servers, and so on – store and process information in the form of bits (strings of zeros and ones),
-quantum computers process quantum bits, a two-state quantum mechanical system, called qubits.
+    <value>Many researchers, industrial labs, and governments are actively working on developing a quantum computer which can
+handle large-scale computation, such as the work at Station Q. While classical computers – phones, tablets, laptops,
+servers, and so on – store and process information in the form of bits (strings of zeros and ones), quantum computers
+process quantum bits, a two-state quantum mechanical system, called qubits.
 
-Compared to a ‘regular’ bit, a qubit can hold a value of one and zero simultaneously. The theoretical advantage
- to this is that each qubit can, therefore, perform copious processes simultaneously – dramatically shortening
-computation times, and permitting calculation of significantly more complex processes.
-Small-scale quantum computers already exist, and estimates vary as to how many years it will take before
-researchers and engineers succeed in building a quantum computer that can handle computations involving
-thousands of qubits.  However, when that day does inevitably come, the consequences for the world’s
-e-commerce and security infrastructure will be enormous.
-In 1994, Shor introduced a quantum algorithm which can factor large integers in polynomial time, given that
-it runs on a quantum computer which can accurately process those computations on a large enough number
-of qubits. A variant of this idea also will allow polynomial-time quantum attacks on all the other currently
-widely deployed public key cryptosystems used in industry and government today.
+Compared to a ‘regular’ bit, a qubit can hold a value of one and zero simultaneously. The theoretical advantage  to this
+is that each qubit can, therefore, perform copious processes simultaneously – dramatically shortening computation times,
+and permitting calculation of significantly more complex processes.
+Small-scale quantum computers already exist, and estimates vary as to how many years it will take before researchers and
+engineers succeed in building a quantum computer that can handle computations involving thousands of qubits.
+However, when that day does inevitably come, the consequences for the world’s e-commerce and security infrastructure
+will be enormous. In 1994, Shor introduced a quantum algorithm which can factor large integers in polynomial time, given
+that it runs on a quantum computer which can accurately process those computations on a large enough number of qubits.
+A variant of this idea also will allow polynomial-time quantum attacks on all the other currently widely deployed public key
+cryptosystems used in industry and government today.
 
-For reference, polynomial time is a category of complexity, which is used to place different algorithms into
-classes of computational complexity (based on the duration it takes to run them). ‘Big O notation’ is a way to
-express this computational complexity. Algorithms running in polynomial time, which is fast, can be written
-as O(na), where: ‘n’ is the number of bits needed for an input, and ‘a’ is a constant greater than one.</value>
+For reference, polynomial time is a category of complexity, which is used to place different algorithms into classes of
+computational complexity (based on the duration it takes to run them). ‘Big O notation’ is a way to express this
+computational complexity. Algorithms running in polynomial time, which is fast, can be written as O(na), where: ‘n’ is the
+number of bits needed for an input, and ‘a’ is a constant greater than one.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="circularButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

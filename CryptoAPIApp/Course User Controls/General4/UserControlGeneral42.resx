@@ -120,7 +120,6 @@
   <data name="label2.Text" xml:space="preserve">
     <value>At the heart of a hashing is a mathematical function that operates on two fixed-size blocks of data to create a hash
 code. This hash function forms the part of the hashing algorithm.
-
 The size of each data block varies depending on the algorithm. Typically the block sizes are from 128 bits to 512 bits.
 
  The following illustration demonstrates the hash function.</value>

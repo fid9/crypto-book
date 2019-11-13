@@ -31,13 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControlGeneral82));
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
             this.circularButton2 = new CryptoAPIApp.CircularButton();
             this.circularButton1 = new CryptoAPIApp.CircularButton();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,7 +46,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(108)))), ((int)(((byte)(108)))));
-            this.label2.Location = new System.Drawing.Point(38, 23);
+            this.label2.Location = new System.Drawing.Point(72, 23);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(880, 294);
             this.label2.TabIndex = 2;
@@ -63,17 +63,48 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Location = new System.Drawing.Point(42, 3);
+            this.panel1.Location = new System.Drawing.Point(0, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(961, 589);
+            this.panel1.Size = new System.Drawing.Size(1045, 592);
             this.panel1.TabIndex = 10;
+            // 
+            // circularButton2
+            // 
+            this.circularButton2.BackColor = System.Drawing.Color.IndianRed;
+            this.circularButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.circularButton2.FlatAppearance.BorderSize = 0;
+            this.circularButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.circularButton2.ForeColor = System.Drawing.Color.White;
+            this.circularButton2.Image = ((System.Drawing.Image)(resources.GetObject("circularButton2.Image")));
+            this.circularButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.circularButton2.Location = new System.Drawing.Point(565, 535);
+            this.circularButton2.Name = "circularButton2";
+            this.circularButton2.Size = new System.Drawing.Size(40, 40);
+            this.circularButton2.TabIndex = 13;
+            this.circularButton2.UseVisualStyleBackColor = false;
+            this.circularButton2.Click += new System.EventHandler(this.CircularButton2_Click);
+            // 
+            // circularButton1
+            // 
+            this.circularButton1.BackColor = System.Drawing.Color.IndianRed;
+            this.circularButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.circularButton1.FlatAppearance.BorderSize = 0;
+            this.circularButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.circularButton1.ForeColor = System.Drawing.Color.White;
+            this.circularButton1.Image = ((System.Drawing.Image)(resources.GetObject("circularButton1.Image")));
+            this.circularButton1.Location = new System.Drawing.Point(440, 535);
+            this.circularButton1.Name = "circularButton1";
+            this.circularButton1.Size = new System.Drawing.Size(40, 40);
+            this.circularButton1.TabIndex = 12;
+            this.circularButton1.UseVisualStyleBackColor = false;
+            this.circularButton1.Click += new System.EventHandler(this.CircularButton1_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.DimGray;
-            this.label5.Location = new System.Drawing.Point(454, 551);
+            this.label5.Location = new System.Drawing.Point(498, 543);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(52, 21);
             this.label5.TabIndex = 9;
@@ -89,12 +120,23 @@
             this.label4.Size = new System.Drawing.Size(0, 21);
             this.label4.TabIndex = 2;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(108)))), ((int)(((byte)(108)))));
+            this.label3.Location = new System.Drawing.Point(72, 374);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(901, 147);
+            this.label3.TabIndex = 2;
+            this.label3.Text = resources.GetString("label3.Text");
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Ebrima", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(21, 341);
+            this.label1.Location = new System.Drawing.Point(71, 334);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(284, 30);
             this.label1.TabIndex = 1;
@@ -106,50 +148,8 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(961, 3);
+            this.panel2.Size = new System.Drawing.Size(1045, 3);
             this.panel2.TabIndex = 0;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(108)))), ((int)(((byte)(108)))));
-            this.label3.Location = new System.Drawing.Point(38, 393);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(901, 147);
-            this.label3.TabIndex = 2;
-            this.label3.Text = resources.GetString("label3.Text");
-            // 
-            // circularButton2
-            // 
-            this.circularButton2.BackColor = System.Drawing.Color.IndianRed;
-            this.circularButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.circularButton2.FlatAppearance.BorderSize = 0;
-            this.circularButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.circularButton2.ForeColor = System.Drawing.Color.White;
-            this.circularButton2.Image = ((System.Drawing.Image)(resources.GetObject("circularButton2.Image")));
-            this.circularButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.circularButton2.Location = new System.Drawing.Point(521, 543);
-            this.circularButton2.Name = "circularButton2";
-            this.circularButton2.Size = new System.Drawing.Size(40, 40);
-            this.circularButton2.TabIndex = 13;
-            this.circularButton2.UseVisualStyleBackColor = false;
-            this.circularButton2.Click += new System.EventHandler(this.CircularButton2_Click);
-            // 
-            // circularButton1
-            // 
-            this.circularButton1.BackColor = System.Drawing.Color.IndianRed;
-            this.circularButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.circularButton1.FlatAppearance.BorderSize = 0;
-            this.circularButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.circularButton1.ForeColor = System.Drawing.Color.White;
-            this.circularButton1.Image = ((System.Drawing.Image)(resources.GetObject("circularButton1.Image")));
-            this.circularButton1.Location = new System.Drawing.Point(396, 543);
-            this.circularButton1.Name = "circularButton1";
-            this.circularButton1.Size = new System.Drawing.Size(40, 40);
-            this.circularButton1.TabIndex = 12;
-            this.circularButton1.UseVisualStyleBackColor = false;
-            this.circularButton1.Click += new System.EventHandler(this.CircularButton1_Click);
             // 
             // UserControlGeneral82
             // 

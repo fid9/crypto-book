@@ -52,7 +52,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(108)))), ((int)(((byte)(108)))));
-            this.label3.Location = new System.Drawing.Point(74, 73);
+            this.label3.Location = new System.Drawing.Point(72, 96);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(502, 168);
             this.label3.TabIndex = 32;
@@ -80,7 +80,7 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(0, 0);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(415, 5);
+            this.panel6.Size = new System.Drawing.Size(415, 2);
             this.panel6.TabIndex = 31;
             // 
             // textBox1
@@ -185,9 +185,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(78, 272);
+            this.pictureBox2.Location = new System.Drawing.Point(104, 282);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(475, 320);
+            this.pictureBox2.Size = new System.Drawing.Size(419, 310);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 37;
             this.pictureBox2.TabStop = false;
@@ -197,7 +197,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(108)))), ((int)(((byte)(108)))));
-            this.label9.Location = new System.Drawing.Point(600, 30);
+            this.label9.Location = new System.Drawing.Point(600, 25);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(208, 19);
             this.label9.TabIndex = 38;

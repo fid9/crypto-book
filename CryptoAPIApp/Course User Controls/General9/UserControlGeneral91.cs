@@ -40,5 +40,10 @@ namespace CryptoAPIApp
 
             FrmMain.Instance.PnlContainer.Controls["UserControlGeneral92"].BringToFront();
         }
+
+        private void Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -53,7 +53,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Corbel", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(108)))), ((int)(((byte)(108)))));
-            this.label3.Location = new System.Drawing.Point(82, 134);
+            this.label3.Location = new System.Drawing.Point(80, 101);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(474, 294);
             this.label3.TabIndex = 47;
@@ -204,7 +204,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(42, 72);
+            this.label2.Location = new System.Drawing.Point(93, 18);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(423, 26);
             this.label2.TabIndex = 48;
@@ -215,7 +215,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(108)))), ((int)(((byte)(108)))));
-            this.label9.Location = new System.Drawing.Point(600, 30);
+            this.label9.Location = new System.Drawing.Point(600, 18);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(208, 19);
             this.label9.TabIndex = 35;

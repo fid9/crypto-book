@@ -34,16 +34,7 @@ namespace CryptoAPIApp
             textboxkey2.Text = "";
             textboxplaintext2.Text = "";
         }
-
-        private void BtnDecrypt_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void BtnEncrypt_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void BtnClear_Click(object sender, EventArgs e)
         {

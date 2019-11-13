@@ -118,34 +118,45 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label3.Text" xml:space="preserve">
-    <value>The other key in the pair is kept secret; it is called the private
-key. Either of the keys can be used to encrypt a message;
-the opposite key from the one used to encrypt the message
-is used for decryption.
+    <value>The other key in the pair is kept secret; it is called the private key.
+Either of the keys can be used to encrypt a message; the opposite
+key from the one used to encrypt the message is used for
+decryption.
 
-Many protocols like SSH, OpenPGP, S/MIME, and SSL/TLS rely
-on asymmetric cryptography for encryption and digital
-signature functions. It is also used in software programs,
-such as browsers, which need to establish a secure connection
- over an insecure network like the Internet or need to validate
-a digital signature. </value>
+Many protocols like SSH, OpenPGP, S/MIME, and SSL/TLS rely on 
+asymmetric cryptography for encryption and digital signature
+functions. It is also used in software programs, such as browsers,
+which need to establish a secure connection over an insecure
+network like the Internet or need to validate a digital signature. </value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Asymmetric cryptography, also known as public key cryptography, uses public and private keys to encrypt and
-decrypt data. The keys are simply large numbers that have been paired together but are not identical).
-One key in the pair can be shared with everyone; it is called the public key.
+    <value>Asymmetric cryptography, also known as public key cryptography, uses public and private keys to encrypt and decrypt data.
+The keys are simply large numbers that have been paired together but are not identical). One key in the pair can be shared
+with everyone; it is called the public key.
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="backButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJ
+        TUUH4wgSDiUhOGD66gAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAElSURBVEhL
+        vdW5SkQxGIbhg0sl4lKIeiXCtFpaiLvegDeoteO+oYKCd6Li/r7FDyFwmuQcP3iKmeL7mSSTNBUZwzLO
+        cIIBOovlq7jHFz7hkHlUx/I13MLiX3zjBouoyjjWcYUPWP6DZzh0FMWxfAsXeEeUP2ITEyiO5Ts4xxti
+        We6wjUkUx/JdeFrSctfcoVMojuV7OMUrovwSfj+N4rSVuwf7mEFxYlnycvfA8lkUZwRunGuelvu5utws
+        4BCxoXrBAarLjQOO0NsAl8jj19sSmThB/zKk7SRVHdNI2y/p5I8WSYekV8U1qq+KiEN6u+wiDsmva4c8
+        YANV13XEIfmD45AnVD84kXgyXZ70yXRoJ2+yyR99f80Qc+gsDlmBp+sYS8jSNH9bzXREfEMC+wAAAABJ
+        RU5ErkJggg==
 </value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Encryption strength is directly tied to key size and doubling the key length delivers an exponential increase in
-strength, although it does impair performance. As computing power increases and more efficient factoring
-algorithms are discovered, the ability to factor larger and larger numbers also increases.
-For asymmetric encryption to deliver confidentiality, integrity, authenticity and non-repudiability, users and 
-systems need to be certain that a public key is authentic, that it belongs to the person or entity claimed and
-that it has not been tampered with nor replaced by a malicious third party. There is no perfect solution to this
-public key authentication problem. </value>
+    <value>Encryption strength is directly tied to key size and doubling the key length delivers an exponential increase in strength, although
+it does impair performance. As computing power increases and more efficient factoring algorithms are discovered, the ability
+to factor larger and larger numbers also increases. For asymmetric encryption to deliver confidentiality, integrity, authenticity
+and non-repudiability, users and  systems need to be certain that a public key is authentic, that it belongs to the person or entity
+claimed and that it has not been tampered with nor replaced by a malicious third party. There is no perfect solution to this public
+key authentication problem. </value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAu4AAAEcCAMAAACvccF3AAAABGdBTUEAALGPC/xhBQAAAjRQTFRF////
@@ -334,19 +345,6 @@ public key authentication problem. </value>
         pEWUlkAjmn64DuZwyNSbRfxqIO+QHYJu/qaqcQ95f1MHsx7Lay2itAR5N5qDWVeyDVHgVyCivmxcmHs3
         nlCNeyg+eI1LB5+EhXaU6Y9rB7Me258KE34Fgr7sheMQ4OOKR6RwvTLLwh3C4nEd0f1e+g6B4eXPrp/T
         4VV1BSFUWW4GsgSrAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="backButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJ
-        TUUH4wgSDiUhOGD66gAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAElSURBVEhL
-        vdW5SkQxGIbhg0sl4lKIeiXCtFpaiLvegDeoteO+oYKCd6Li/r7FDyFwmuQcP3iKmeL7mSSTNBUZwzLO
-        cIIBOovlq7jHFz7hkHlUx/I13MLiX3zjBouoyjjWcYUPWP6DZzh0FMWxfAsXeEeUP2ITEyiO5Ts4xxti
-        We6wjUkUx/JdeFrSctfcoVMojuV7OMUrovwSfj+N4rSVuwf7mEFxYlnycvfA8lkUZwRunGuelvu5utws
-        4BCxoXrBAarLjQOO0NsAl8jj19sSmThB/zKk7SRVHdNI2y/p5I8WSYekV8U1qq+KiEN6u+wiDsmva4c8
-        YANV13XEIfmD45AnVD84kXgyXZ70yXRoJ2+yyR99f80Qc+gsDlmBp+sYS8jSNH9bzXREfEMC+wAAAABJ
-        RU5ErkJggg==
 </value>
   </data>
 </root>

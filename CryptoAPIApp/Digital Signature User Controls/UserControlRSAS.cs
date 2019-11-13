@@ -16,8 +16,12 @@ namespace CryptoAPIApp
         public UserControlRSAS()
         {
             InitializeComponent();
-
+            RSAC = new RSACryptoServiceProvider();
+            string privateKey = RSAC.ToXmlString(true);
+            string publicKey = RSAC.ToXmlString(false);
         }
+
+        AsymmetricAlgorithm RSAC;
 
         //BtnEncrypt is the 'Sign' button
         private void BtnEncrypt_Click(object sender, EventArgs e)
@@ -25,13 +29,7 @@ namespace CryptoAPIApp
             try
             {
                 if (textboxplaintext.Text == "") return;
-                RSACryptoServiceProvider RSA = new RSACryptoServiceProvider();
-
-                string privateKey = RSA.ToXmlString(true);
-                string publicKey = RSA.ToXmlString(false);
-
-                RSA.FromXmlString(privateKey);
-                RSAPKCS1SignatureFormatter RSAFormatter = new RSAPKCS1SignatureFormatter(RSA);
+                RSAPKCS1SignatureFormatter RSAFormatter = new RSAPKCS1SignatureFormatter(RSAC);
                 RSAFormatter.SetHashAlgorithm("SHA1");
                 SHA1Managed SHhash = new SHA1Managed();
                 byte[] SignedHashValue = RSAFormatter.CreateSignature(SHhash.ComputeHash(new UnicodeEncoding().GetBytes(textboxplaintext.Text)));
@@ -50,20 +48,12 @@ namespace CryptoAPIApp
         {
             try
             {
-
-                RSACryptoServiceProvider RSA = new RSACryptoServiceProvider();
-                string privateKey = RSA.ToXmlString(true);
-                string publicKey = RSA.ToXmlString(true);
-
-
-                RSA.FromXmlString(publicKey);
-                RSAPKCS1SignatureDeformatter RSADeformatter = new RSAPKCS1SignatureDeformatter(RSA);
+                RSAPKCS1SignatureDeformatter RSADeformatter = new RSAPKCS1SignatureDeformatter(RSAC);
                 RSADeformatter.SetHashAlgorithm("SHA1");
                 SHA1Managed SHhash = new SHA1Managed();
-                
-                
+
                     if (RSADeformatter.VerifySignature(SHhash.ComputeHash(new UnicodeEncoding().GetBytes(textboxplaintext.Text)),
-                    Convert.FromBase64String(textboxsigned.Text))           //the error displays here
+                    Convert.FromBase64String(textboxsigned.Text))         
 )
                     {
 
@@ -83,10 +73,6 @@ namespace CryptoAPIApp
             }
         }
 
-        private void UserControlRSAS_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void BackButton_Click(object sender, EventArgs e)
         {

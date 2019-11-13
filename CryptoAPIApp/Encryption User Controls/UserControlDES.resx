@@ -124,7 +124,8 @@ Technology (NIST). DES is an implementation of a Feistel Cipher.
 It uses 16 round Feistel structure. The block size is 64-bit.
 Though, key length is 64-bit, DES has an effective key length
 of 56 bits, since 8 of the 64 bits of the key are not used by the
-encryption algorithm (function as check bits only).</value>
+encryption algorithm (function as check bits only).
+</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="backButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

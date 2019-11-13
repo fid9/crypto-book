@@ -32,6 +32,7 @@
             this.btnHash = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.labelpad = new System.Windows.Forms.Label();
             this.textboxkey = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -43,7 +44,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.backButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -68,7 +68,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(108)))), ((int)(((byte)(108)))));
-            this.label3.Location = new System.Drawing.Point(65, 127);
+            this.label3.Location = new System.Drawing.Point(72, 96);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(521, 378);
             this.label3.TabIndex = 41;
@@ -92,6 +92,15 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(415, 498);
             this.panel1.TabIndex = 43;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Crimson;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(415, 3);
+            this.panel2.TabIndex = 34;
             // 
             // labelpad
             // 
@@ -191,7 +200,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(42, 72);
+            this.label2.Location = new System.Drawing.Point(219, 25);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(134, 26);
             this.label2.TabIndex = 42;
@@ -207,15 +216,6 @@
             this.label9.Size = new System.Drawing.Size(208, 19);
             this.label9.TabIndex = 44;
             this.label9.Text = "Test the algorithm below:";
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Crimson;
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(415, 3);
-            this.panel2.TabIndex = 34;
             // 
             // backButton
             // 

@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Data;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Security.Cryptography;
 
@@ -20,7 +14,6 @@ namespace CryptoAPIApp
 
         private void BtnHash_Click(object sender, EventArgs e)
         {
-
             UTF8Encoding utf8 = new UTF8Encoding(); 
             HMACMD5 hMACMD5 = new HMACMD5(utf8.GetBytes(textboxkey.Text));
             byte[] hashmessage = hMACMD5.ComputeHash(utf8.GetBytes(textBox1.Text));
